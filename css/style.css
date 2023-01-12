@@ -13,7 +13,13 @@
 	--color-primary		: #0065FC;
 	--color-secondary	: #DEEBFF;
 	--color-tertiary	: #D9D9D9;
-	--color-text		: #000
+	--color-text		: #000;
+	--color-text-oppose	: #FFF;
+}
+
+/* miscellaneous var */
+:root {
+	--medium-border-radius : 1em;
 }
 
 /* Defining Text Template */
@@ -46,53 +52,15 @@
 
 /* Icons Template */
 .icon-meduim {
-	width: 22px;
-	height: 22px;
+	width: auto;
+	height: 1em;
 	color: var(--color-primary);
 }
 
 body {
 	margin: 0%;
-}
-
-/* Header */
-.booki-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: stretch;
-	height: 100%;
-	width: 100%;
-}
-
-.booki-header .header-logo {
-	width: 5em;
-	height: fit-content;
-	margin: 1em;
 	margin-inline: 2em;
 }
 
-.booki-header-menu{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-content: stretch;
-	margin: 0%;
-	margin-inline: 2em;
-}
 
-.booki-header-menu .menu-item {
-	padding-inline: 2em;
-	text-decoration: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 7em;
-}
 
-.booki-header-menu .menu-item:hover {
-	border-top: solid;
-	border-top-width: 0.2em;
-	border-top-color: var(--color-primary);
-	color: var(--color-primary);
-}

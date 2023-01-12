@@ -1,0 +1,48 @@
+/* Formualaire */
+.booki-search {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+.booki-search .booki-search-text {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+.booki-search .booki-form {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+	background-color: var(--color-tertiary);
+	width: fit-content;
+	border-radius: var(--medium-border-radius);
+	height: 3em;
+}
+
+.booki-search .booki-form .form-icon {
+	align-self: center;
+	margin: 1em;
+	color: var(--color-text)
+}
+
+.booki-search .booki-form .text-field {
+	border-color: var(--color-tertiary) transparent var(--color-tertiary) transparent;
+	border-style: solid none solid none;
+}
+
+.booki-search .booki-form .text-field:focus-visible {
+	outline: none;
+}
+
+.booki-search .booki-form .submit-field {
+	background-color: var(--color-primary);
+	color: var(--color-text-oppose);
+	border: none;
+	border-top-right-radius: var(--medium-border-radius);
+	border-bottom-right-radius: var(--medium-border-radius);
+	padding-inline: 2em;
+}
