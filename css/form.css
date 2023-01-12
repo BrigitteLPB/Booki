@@ -32,6 +32,8 @@
 .booki-search .booki-form .text-field {
 	border-color: var(--color-tertiary) transparent var(--color-tertiary) transparent;
 	border-style: solid none solid none;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 
 .booki-search .booki-form .text-field:focus-visible {

@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/filter.css">
 
 	<title>Booki</title>
 </head>
@@ -27,9 +28,20 @@
 		<p class="text-normal booki-search-text">En plein centre-ville ou en pleine nature</p>
 		<form action="" class="booki-form">
 			<i class="fa-solid fa-location-dot form-icon icon-meduim"></i>
-			<input type="text" class="text-normal-bold text-field" value="" name="search-field">
+			<input type="text" class="text-normal-bold text-field" value="" name="search-field" placeholder="Marseille, France">
 			<input type="submit" class="text-normal-bold submit-field" value="Rechercher" name="request-search">
 		</form>
+	</div>
+
+	<!-- FILTERS -->
+	<div class="booki-filters">
+		<div class="booki-filters-container">
+			<p class="text-normal-bold">Filtres</p>
+			<button type="submit" class="filter-button"><i class="fa-solid fa-money-bill-wave icon-meduim filter-icon"></i><p class="text-normal-bold filter-text">Économique</p></button>
+			<button type="submit" class="filter-button"><i class="fa-solid fa-person icon-meduim filter-icon"></i><p class="text-normal-bold filter-text">Familiale</p></button>
+			<button type="submit" class="filter-button"><i class="fa-solid fa-heart icon-meduim filter-icon"></i><p class="text-normal-bold filter-text">Romantique</p></button>
+			<button type="submit" class="filter-button"><i class="fa-solid fa-dog icon-meduim filter-icon"></i><p class="text-normal-bold filter-text">Animaux autorisés</p></button>
+		</div>
 	</div>
 </body>
 </html>

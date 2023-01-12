@@ -1,0 +1,32 @@
+/* Filter */
+.booki-filters-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 65%;
+	padding-left: 0.5em;
+}
+
+.booki-filters .filter-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: fit-content;
+	height: fit-content;
+	padding: 1em;
+
+	background-color: var(--color-contrast-white);
+	border-color: var(--color-tertiary);
+	border-style: solid;
+	border-radius: 2em;
+}
+
+.booki-filters .filter-button:hover {
+	background-color: var(--color-secondary);
+}
+
+.booki-filters .filter-button .filter-icon {
+	margin-right: 1em;
+}

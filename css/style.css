@@ -13,8 +13,10 @@
 	--color-primary		: #0065FC;
 	--color-secondary	: #DEEBFF;
 	--color-tertiary	: #D9D9D9;
-	--color-text		: #000;
-	--color-text-oppose	: #FFF;
+	--color-contrast-black		: #000;
+	--color-contrast-white		: #FFF;
+	--color-text		: var(--color-contrast-black);
+	--color-text-oppose	: var(--color-contrast-white);
 }
 
 /* miscellaneous var */
@@ -30,6 +32,7 @@
 	font-size: 16px;
 	line-height: 19px;
 	color: var(--color-text);
+	margin: 0;
 }
 
 .text-normal-bold {
@@ -39,6 +42,7 @@
 	font-size: 16px;
 	line-height: 19px;
 	color: var(--color-text);
+	margin: 0;
 }
 
 .text-title {
@@ -48,6 +52,7 @@
 	font-size: 22px;
 	line-height: 26px;
 	color: var(--color-text);
+	margin: 0;
 }
 
 /* Icons Template */
