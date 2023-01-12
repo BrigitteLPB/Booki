@@ -1,9 +1,52 @@
 /* Adding Raleway Font */
 @font-face {
 	font-family: "Raleway Thin";
-	src: url("font/Raleway/Raleway-VariableFont_wght.ttf");
+	src: url("../font/Raleway/Raleway-VariableFont_wght.ttf");
 }
 @font-face {
 	font-family: "Raleway Thin Italic";
-	src: url("font/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+	src: url("../font/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+}
+
+/* Defining Color Template */
+:root {
+	--color-primary		: #0065FC;
+	--color-secondary	: #DEEBFF;
+	--color-tertiary	: #D9D9D9;
+	--color-text		: #000
+}
+
+/* Defining Text Template */
+.text-normal {
+	font-family: "Raleway Thin";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: var(--color-text);
+}
+
+.text-normal-bold {
+	font-family: "Raleway Thin";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	color: var(--color-text);
+}
+
+.text-title {
+	font-family: "Raleway Thin";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	color: var(--color-text);
+}
+
+/* Icons Template */
+.icon-meduim {
+	width: 22px;
+	height: 22px;
+	color: var(--color-primary);
 }
