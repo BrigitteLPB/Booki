@@ -53,6 +53,11 @@
 	width: 100%;
 }
 
+.accommodation-space-div {
+	display: flex;
+	flex: 1 0 2em;
+}
+
 /* Accommodation Card */
 .accommodation-card-container {
 	display: flex;
@@ -68,7 +73,7 @@
 	justify-content: flex-start;
 	background-color: var(--color-contrast-white);
 	border-radius: var(--medium-border-radius);
-	padding: 0.5em;
+	padding: .5em;
 	height: 15em;
 	width: 25%;
 	margin-bottom: 2em;
@@ -104,11 +109,6 @@
 .all-accommodation-button {
 	background-color: transparent;
 	border: none;
-}
-
-.accommodation-space-div {
-	display: flex;
-	flex: 1 0 10px;
 }
 
 /* Popular cards */
