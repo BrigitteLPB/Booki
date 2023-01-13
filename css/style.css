@@ -62,6 +62,12 @@
 	color: var(--color-primary);
 }
 
+.icon-meduim-no-color {
+	width: auto;
+	height: 1em;
+	color: var(--color-tertiary);
+}
+
 body {
 	margin: 0%;
 	margin-inline: 2em;
