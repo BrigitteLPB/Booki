@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="css/footer.css">
 
 	<title>Booki</title>
-</head>
+</head> 
 <body>
 	<!-- HEADER -->
 	<header class="booki-header">
@@ -29,7 +29,7 @@
 	<div class="booki-search">
 		<p class="text-title booki-search-text">Trouvez votre hébergement pour des vacances de rêve</p>
 		<p class="text-normal booki-search-text">En plein centre-ville ou en pleine nature</p>
-		<form action="" class="booki-form">
+		<form method="post" action="" class="booki-form">
 			<i class="fa-solid fa-location-dot form-icon icon-meduim"></i>
 			<input type="text" class="text-normal-bold text-field" value="" name="search-field" placeholder="Marseille, France">
 			<input type="submit" class="text-normal-bold submit-field" value="Rechercher" name="request-search">
@@ -54,6 +54,7 @@
 			<p class="text-normal accommodation-text">Plus de 500 logements sont disponibles dans cette ville</p>
 		</div>
 		<div class="accommodation-container">
+			<!-- ALL ACCOMMODATION -->
 			<div class="all-accommodation">
 				<p id="accommodation" class="text-title">Hébergements à Marseille</p>
 				<div class="accommodation-card-container">
@@ -145,17 +146,20 @@
 				<button class="text-normal-bold contrast-black all-accommodation-button">Afficher plus</button>
 			</div>
 			<div class="accommodation-space-div"></div>
+			<!-- POPULAR -->
 			<div class="popular-accommodation">
 				<div class="title-container">
 					<p class="text-title">Les plus populaires</p>
 					<i class="fa-solid fa-chart-line icon-meduim"></i>
 				</div>
-				<div class="accommodation-card-container popular-card-container">
+				<div class="popular-card-container">
 					<a class="accommodation-card" href="#">
 						<img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
 						<div class="info-container">
-							<p class="text-normal-bold">Hôtel du port</p>
-							<p class="text-normal">Nuit à partir de 52€</p>
+							<div class="card-text">
+								<p class="text-normal-bold">Hôtel du port</p>
+								<p class="text-normal">Nuit à partir de 52€</p>
+							</div>
 							<div class="note-container">
 								<i class="fa-solid fa-star icon-meduim"></i>
 								<i class="fa-solid fa-star icon-meduim"></i>
@@ -168,8 +172,10 @@
 					<a class="accommodation-card" href="#">
 						<img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
 						<div class="info-container">
-							<p class="text-normal-bold">Hôtel du port</p>
-							<p class="text-normal">Nuit à partir de 52€</p>
+							<div class="card-text">
+								<p class="text-normal-bold">Hôtel du port</p>
+								<p class="text-normal">Nuit à partir de 52€</p>
+							</div>
 							<div class="note-container">
 								<i class="fa-solid fa-star icon-meduim"></i>
 								<i class="fa-solid fa-star icon-meduim"></i>
@@ -182,8 +188,10 @@
 					<a class="accommodation-card" href="#">
 						<img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
 						<div class="info-container">
-							<p class="text-normal-bold">Hôtel du port</p>
-							<p class="text-normal">Nuit à partir de 52€</p>
+							<div class="card-text">
+								<p class="text-normal-bold">Hôtel du port</p>
+								<p class="text-normal">Nuit à partir de 52€</p>
+							</div>
 							<div class="note-container">
 								<i class="fa-solid fa-star icon-meduim"></i>
 								<i class="fa-solid fa-star icon-meduim"></i>
@@ -193,6 +201,7 @@
 							</div>
 						</div>
 					</a>
+					</div>
 				</div>
 			</div>
 		</div>
