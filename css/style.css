@@ -19,6 +19,27 @@
 	--color-text-oppose	: var(--color-contrast-white);
 }
 
+.primary-color {
+	color: var(--color-primary)
+}
+
+.secondary-color {
+	color: var(--color-secondary)
+}
+
+.tertiary-color {
+	color: var(--color-tertiary)
+}
+
+.contrast-black {
+	color: var(--color-contrast-black)
+}
+
+.contrast-white {
+	color: var(--color-contrast-white)
+}
+
+
 /* miscellaneous var */
 :root {
 	--medium-border-radius : 1em;
