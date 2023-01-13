@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="css/form.css">
 	<link rel="stylesheet" href="css/filter.css">
 	<link rel="stylesheet" href="css/accommodation.css">
+	<link rel="stylesheet" href="css/activity.css">
+	<link rel="stylesheet" href="css/footer.css">
 
 	<title>Booki</title>
 </head>
@@ -18,8 +20,8 @@
 	<header class="booki-header">
 		<img class="header-logo" src="images/logo/Booki.png" alt="Booki Logo">
 		<div class="booki-header-menu">
-			<a class="text-normal menu-item" href="#">Hébergements</a>
-			<a class="text-normal menu-item" href="#">Activités</a>
+			<a class="text-normal menu-item" href="#accommodation">Hébergements</a>
+			<a class="text-normal menu-item" href="#activity">Activités</a>
 		</div>
 	</header>
 
@@ -46,14 +48,14 @@
 	</div>
 
 	<!-- ACCOMMODATION -->
-	<div class="booki-accommodation">
+	<section class="booki-accommodation">
 		<div class="accommodation-notif">
 			<i class="fa-solid fa-info icon-meduim accommodation-icon"></i>
 			<p class="text-normal accommodation-text">Plus de 500 logements sont disponibles dans cette ville</p>
 		</div>
 		<div class="accommodation-container">
 			<div class="all-accommodation">
-				<p class="text-title">Hébergements à Marseille</p>
+				<p id="accommodation" class="text-title">Hébergements à Marseille</p>
 				<div class="accommodation-card-container">
 					<a class="accommodation-card" href="#">
 						<img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
@@ -193,6 +195,49 @@
 					</a>
 				</div>
 			</div>
+		</div>
+	</section>
+
+	<!-- ACTIVITY -->
+	<section class="activity">
+		<p  id="activity" class="text-title activity-title">Activités à Marseilles</p>
+		<div class="activity-card-container">
+			<a class="activity-card" href="#">
+				<img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
+				<p class="text-normal-bold activity-title">Notre-Dame-de-la-Garde</p>
+			</a>
+			<a class="activity-card" href="#">
+				<img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
+				<p class="text-normal-bold activity-title">Parc national des Calanques</p>
+			</a>
+			<a class="activity-card" href="#">
+				<img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
+				<p class="text-normal-bold activity-title">Fort de Pomègues</p>
+			</a>
+			<a class="activity-card" href="#">
+				<img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
+				<p class="text-normal-bold activity-title">Vieux-Port</p>
+			</a>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<div class="footer">
+		<div class="footer-column">
+			<p class="text-title footer-title">A propos</p>
+			<a class="text-normal" href="#">Fonctionnement du site</a>
+			<a class="text-normal" href="#">Conditions générales</a>
+			<a class="text-normal" href="#">Données et confidentialié</a>
+		</div>
+		<div class="footer-column">
+			<p class="text-title footer-title">Nos hébergements</p>
+			<a class="text-normal" href="#">Charte qualitée</a>
+			<a class="text-normal" href="#">Proposer votre hôtel</a>
+		</div>
+		<div class="footer-column">
+			<p class="text-title footer-title">Assistance</p>
+			<a class="text-normal" href="#">Centre d'aide</a>
+			<a class="text-normal" href="#">Nous contacter</a>
 		</div>
 	</div>
 </body>

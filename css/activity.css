@@ -1,0 +1,39 @@
+.activity .activity-title {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.activity .activity-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    border-radius: var(--medium-border-radius);
+
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.2);
+
+
+    text-decoration: none;
+    width: 21%;
+    aspect-ratio: 2 / 3;
+}
+
+.activity .activity-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activity .activity-card img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border-top-left-radius: var(--medium-border-radius);
+    border-top-right-radius: var(--medium-border-radius);
+}
+
+.activity .activity-card .activity-title {
+    margin: .5em 1em .5em 1em;
+}
