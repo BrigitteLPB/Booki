@@ -69,6 +69,7 @@
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
+		margin-bottom: 1.5em;
 	}
 
 	.booki-header .header-logo {
@@ -92,10 +93,12 @@
 		border-bottom-color: var(--color-tertiary);
 	}
 
-	.booki-header-menu .menu-item:hover {
+	.booki-header-menu .menu-item:hover, .booki-header-menu .menu-item:focus {
 		border-bottom: solid;
 		border-bottom-width: 0.2em;
 		border-bottom-color: var(--color-primary);
 		color: var(--color-primary);
+
+		outline: none;
 	}
 }

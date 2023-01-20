@@ -42,9 +42,54 @@
 
 .booki-search .booki-form .submit-field {
 	background-color: var(--color-primary);
-	color: var(--color-text-oppose);
 	border: none;
 	border-top-right-radius: var(--medium-border-radius);
+
 	border-bottom-right-radius: var(--medium-border-radius);
-	padding-inline: 2em;
+}
+
+.booki-search .booki-form .submit-field .button-content {
+	color: var(--color-text-oppose);
+}
+
+
+@media (min-width: 768px) {	/* Ordinateur & tablette */
+	.booki-search .booki-form .submit-field {
+		padding-inline: 2em;
+	}
+
+	.booki-search .booki-form .submit-field .button-text {
+		display: block;
+	}
+
+	.booki-search .booki-form .submit-field .button-icon {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {	/* Tablette */
+
+}
+
+@media (max-width: 767px) {	/* Mobile */
+	.booki-search .booki-form {
+		width: 100%;
+	}
+
+	.booki-search .booki-form .text-field {
+		width: 100%;
+	}
+
+	.booki-search .booki-form .submit-field {
+		padding-inline: 0;
+	}
+
+	.booki-search .booki-form .submit-field .button-text {
+		display: none;
+	}
+
+	.booki-search .booki-form .submit-field .button-icon {
+		display: block;
+		margin: 1em;
+	}
 }
