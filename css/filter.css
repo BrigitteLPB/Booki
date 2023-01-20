@@ -30,3 +30,30 @@
 .booki-filters .filter-button .filter-icon {
 	margin-right: 1em;
 }
+
+@media (min-width: 768px) {	/* Ordinateur & tablette */
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {	/* Tablette */
+
+}
+
+@media (max-width: 767px) {	/* Mobile */
+	.booki-filters-container {
+		flex-wrap: wrap;
+		width: 100%;
+		padding: 0;
+	}
+
+	.booki-filters-container .filter-title {
+		width: 100%;
+		margin: 0;
+	}
+
+	.booki-filters-container .filter-button {
+		width: 48%;
+		justify-content: center;
+		margin-top: 1em;
+	}
+}
