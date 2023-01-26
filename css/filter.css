@@ -36,7 +36,9 @@
 }
 
 @media (max-width: 991px) and (min-width: 768px) {	/* Tablette */
-
+	.booki-filters-container {
+		width: 100%;
+	}
 }
 
 @media (max-width: 767px) {	/* Mobile */

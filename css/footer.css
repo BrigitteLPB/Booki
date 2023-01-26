@@ -1,6 +1,6 @@
 .footer {
     background-color: var(--color-tertiary);
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -28,4 +28,31 @@
 .footer .footer-column a {
     text-decoration: none;
     margin: .5em 0 .5em 0;
+}
+
+@media (min-width: 768px) {	/* Ordinateur & tablette */
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {	/* Tablette */
+
+}
+
+@media (max-width: 767px) {	/* Mobile */
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 2em;
+        border-radius: 0;
+    }
+
+    .footer .footer-column {
+        width: 90%;
+        margin : 2em 0 0 0;
+    }
+
+    .footer .footer-column .footer-title {
+        margin: .5em 0 .5em 0;
+    }
 }

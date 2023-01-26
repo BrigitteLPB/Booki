@@ -37,3 +37,27 @@
 .activity .activity-card .activity-title {
     margin: .5em 1em .5em 1em;
 }
+
+@media (min-width: 768px) {	/* Ordinateur & tablette */
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {	/* Tablette */
+
+}
+
+@media (max-width: 767px) {	/* Mobile */
+    .activity .activity-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .activity .activity-card {
+        width: 100%;
+        margin-bottom: 1em;
+        aspect-ratio: 2;
+    }
+}
