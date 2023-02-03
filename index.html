@@ -21,10 +21,10 @@
 	<!-- HEADER -->
 	<header class="booki-header">
 		<img class="header-logo" src="images/logo/Booki.png" alt="Booki Logo">
-		<div class="booki-header-menu">
+		<nav class="booki-header-menu">
 			<a class="text-normal menu-item" href="#accommodation">Hébergements</a>
 			<a class="text-normal menu-item" href="#activity">Activités</a>
-		</div>
+		</nav>
 	</header>
 
 	<!-- SEARCH FORM -->
@@ -41,7 +41,7 @@
 			</button>
 		</form>
 	</div>
-
+	
 	<!-- FILTERS -->
 	<div class="booki-filters">
 		<div class="booki-filters-container">
@@ -70,119 +70,12 @@
 		</div>
 		<div class="accommodation-container">
 			<!-- ALL ACCOMMODATION -->
-			<div class="all-accommodation">
+			<div id="all-accommodation" class="accommodation-view">
 				<h1 id="accommodation" class="text-title">Hébergements à Marseille</h1>
 				<div class="accommodation-card-container">
-					<article>
-						<a class="accommodation-card" href="#">
-							<img src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
-							<div class="info-container">
-								<h2 class="text-normal-bold">Hôtel à la mer</h2>
-								<p class="text-normal">Nuit à partir de 46€</p>
-								<div class="note-container">
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim-no-color"></i>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article>
-						<a class="accommodation-card" href="#">
-							<img src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
-							<div class="info-container">
-								<h2 class="text-normal-bold">Chambres d&#x2019;hôtes Au cœur de l&#x2019;eau</h2>
-								<p class="text-normal">Nuit à partir de 71€</p>
-								<div class="note-container">
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim-no-color"></i>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article>
-						<a class="accommodation-card" href="#">
-							<img src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
-							<div class="info-container">
-								<h2 class="text-normal-bold">Hôtel Le soleil du matin</h2>
-								<p class="text-normal">Nuit à partir de 128€</p>
-								<div class="note-container">
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article>
-						<a class="accommodation-card" href="#">
-							<img src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
-							<div class="info-container">
-								<h2 class="text-normal-bold">Hôtel Chez Amina</h2>
-								<p class="text-normal">Nuit à partir de 96€</p>
-								<div class="note-container">
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim-no-color"></i>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article>
-						<a class="accommodation-card" href="#">
-							<img src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
-							<div class="info-container">
-								<h2 class="text-normal-bold">Hôtel Bleu et Blanc</h2>
-								<p class="text-normal">Nuit à partir de 68€</p>
-								<div class="note-container">
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim-no-color"></i>
-								</div>
-							</div>
-						</a>
-					</article>
-					<article>
-						<a class="accommodation-card" href="#">
-							<img src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
-							<div class="info-container">
-								<h2 class="text-normal-bold">Hôtel du port</h2>
-								<p class="text-normal">Nuit à partir de 52€</p>
-								<div class="note-container">
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim"></i>
-									<i class="fa-solid fa-star icon-meduim-no-color"></i>
-								</div>
-							</div>
-						</a>
-					</article>
-				</div>
-				<button class="text-normal-bold contrast-black all-accommodation-button">Afficher plus</button>
-			</div>
-			<div class="accommodation-space-div"></div>
-			<!-- POPULAR -->
-			<div class="popular-accommodation">
-				<div class="title-container">
-					<h1 class="text-title">Les plus populaires</h1>
-					<i class="fa-solid fa-chart-line icon-meduim"></i>
-				</div>
-				<div class="popular-card-container">
-					<article>
-						<a class="accommodation-card" href="#">
-							<img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+					<article class="accommodation-card">
+						<a href="#">
+							<img class="card-image" src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
 							<div class="info-container">
 								<div class="card-text">
 									<h2 class="text-normal-bold">Auberge de la Canebière</h2>
@@ -198,13 +91,13 @@
 							</div>
 						</a>
 					</article>
-					<article>
-						<a class="accommodation-card" href="#">
-							<img src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+					<article class="accommodation-card">
+						<a href="#">
+							<img class="card-image" src="images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
 							<div class="info-container">
 								<div class="card-text">
-									<h2 class="text-normal-bold">Auberge le Panier</h2>
-									<p class="text-normal">Nuit à partir de 23€</p>
+									<h2 class="text-normal-bold">Hôtel du port</h2>
+									<p class="text-normal">Nuit à partir de 52€</p>
 								</div>
 								<div class="note-container">
 									<i class="fa-solid fa-star icon-meduim"></i>
@@ -216,9 +109,9 @@
 							</div>
 						</a>
 					</article>
-					<article>
-						<a class="accommodation-card" href="#">
-							<img src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
+					<article class="accommodation-card">
+						<a href="#">
+							<img class="card-image" src="images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
 							<div class="info-container">
 								<div class="card-text">
 									<h2 class="text-normal-bold">Hôtel les mouettes</h2>
@@ -234,6 +127,125 @@
 							</div>
 						</a>
 					</article>
+					<article class="accommodation-card">
+						<a href="#">
+							<img class="card-image" src="images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
+							<div class="info-container">
+								<div class="card-text">
+									<h2 class="text-normal-bold">Hôtel à la mer</h2>
+									<p class="text-normal">Nuit à partir de 46€</p>
+								</div>
+								<div class="note-container">
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim-no-color"></i>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="accommodation-card">
+						<a href="#">
+							<img class="card-image" src="images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+							<div class="info-container">
+								<div class="card-text">
+									<h2 class="text-normal-bold">Auberge Le Panier</h2>
+									<p class="text-normal">Nuit à partir de 23€</p>
+								</div>
+								<div class="note-container">
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim-no-color"></i>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="accommodation-card">
+						<a href="#">
+							<img class="card-image" src="images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
+							<div class="info-container">
+								<div class="card-text">
+									<h2 class="text-normal-bold">Hôtel Chez Amina</h2>
+									<p class="text-normal">Nuit à partir de 96€</p>
+								</div>
+								<div class="note-container">
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim-no-color"></i>
+								</div>
+							</div>
+						</a>
+					</article>
+				</div>
+				<button class="text-normal-bold contrast-black all-accommodation-button">Afficher plus</button>
+			</div>
+			<!-- POPULAR -->
+			<div id="popular-accommodation" class="accommodation-view">
+				<div class="title-container">
+					<h1 class="text-title">Les plus populaires</h1>
+					<i class="fa-solid fa-chart-line icon-meduim"></i>
+				</div>
+				<div class="accommodation-card-container">
+					<article class="accommodation-card">
+						<a href="#">
+							<img class="card-image" src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+							<div class="info-container">
+								<div class="card-text">
+									<h2 class="text-normal-bold">Hôtel Le soleil du matin</h2>
+									<p class="text-normal">Nuit à partir de 128€</p>
+								</div>
+								<div class="note-container">
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim-no-color"></i>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="accommodation-card">
+						<a href="#">
+							<img class="card-image" src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
+							<div class="info-container">
+								<div class="card-text">
+									<h2 class="text-normal-bold">Chambres d&#x2019;hôtes Au cœur de l&#x2019;eau</h2>
+									<p class="text-normal">Nuit à partir de 71€</p>
+								</div>
+								<div class="note-container">
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim-no-color"></i>
+								</div>
+							</div>
+						</a>
+					</article>
+					<article class="accommodation-card">
+						<a href="#">
+							<img class="card-image" src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
+							<div class="info-container">
+								<div class="card-text">
+									<h2 class="text-normal-bold">Hôtel Bleu et Blanc</h2>
+									<p class="text-normal">Nuit à partir de 68€</p>
+								</div>
+								<div class="note-container">
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim"></i>
+									<i class="fa-solid fa-star icon-meduim-no-color"></i>
+								</div>
+							</div>
+						</a>
+					</article>
+
 				</div>
 			</div>
 		</div>
